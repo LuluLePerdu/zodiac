@@ -54,7 +54,8 @@ const DetailPanel: React.FC<{ sign: ZodiacSign }> = ({ sign }) => (
     {sign.count > 0 && (
       <div className="mt-4 py-2 px-3 bg-amber-400/10 rounded-lg">
         <p className="text-amber-300 text-sm font-medium">
-          Nombre d'occurrences : ×{sign.count}
+          Nombre d&apos;occurrences : ×{sign.count}
+
         </p>
       </div>
     )}
